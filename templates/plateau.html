@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block title %}Plateau{% endblock %}
+{% block main %}
+<h2> {{phase.titre}} </h2>
+<h3> {{phase.definition}} </h3>
+<p> {{text}} <p>
+  {% if cartes %}
+    {% for carte in cartes %} 
+      <table>
+        <tr>
+          <th>{{carte.get('type')}}</th>
+        </tr>
+        <tr>
+          <td>{{carte.get('texte')}}</td>
+        </tr>
+      </table>
+    {% endfor %}
+      
+    <a href='suivante'>
+      <button>Phases Suivante</button>
+    </a>
+
+  {% else %}
+    <a href='pioche'>
+      <button>Piochez carte(s)</button>
+    </a>
+  {% endif %}
+{% endblock %}

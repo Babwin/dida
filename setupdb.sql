@@ -1,7 +1,7 @@
 CREATE TABLE phase(
    id INT PRIMARY KEY     NOT NULL,
-   titre          VARCHAR(25)    NOT NULL,
-   definition     VARCHAR(50)     NOT NULL,
+   titre          TEXT    NOT NULL,
+   definition     TEXT     NOT NULL,
    questions        TEXT NOT NULL,
    phase_suivante_id         INT,
    est_courante   BOOLEAN,
@@ -214,8 +214,5 @@ INSERT INTO phase VALUES
    '"Je peux le faire avec mon ami ?" ',
    FALSE, 
    FALSE
-   ) ,
-   
-   
-   
+   )
   ;

@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    {% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>{% block title %}{% endblock %} - Réflexion sur une séquence</title>
+    {% endblock %}
+  </head>
+  <body>
+    <header>
+      {% block header %}
+        <h1>Réflexion sur une séquance</h1>
+      {% endblock %}
+    </header>
+    <main>{% block main %}{% endblock %}</main>
+    <footer>
+      {% block footer %}
+      Stacy De Neyer - 2020
+      {% endblock %}
+    </footer>
+  </body>
+</html>
