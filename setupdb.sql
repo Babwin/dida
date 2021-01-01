@@ -1,7 +1,7 @@
 CREATE TABLE phase(
    id INT PRIMARY KEY     NOT NULL,
    titre          VARCHAR(25)    NOT NULL,
-   definition     VARCHAR(25)     NOT NULL,
+   definition     VARCHAR(50)     NOT NULL,
    questions        TEXT NOT NULL,
    phase_suivante_id         INT,
    est_courante   BOOLEAN,
@@ -17,7 +17,7 @@ CREATE TABLE carte(
    type_carte          carte_type    NOT NULL,
    texte     TEXT     NOT NULL,
    est_pioche        BOOLEAN NOT NULL,
-   est_courante   BOOLEAN,
+   est_courante   BOOLEAN
 );
 
 
@@ -26,16 +26,17 @@ INSERT INTO phase VALUES
     0, 'Phase d''intéressement',
     'Cette phase est primordiale pour mobiliser l''élève',
     '<ol><li>Quel est l''objectif de ma leçon ?</li><li>Comment partir de ce qu''il connait ? </li><li>Comment les motiver à apprendre</li>',
-    ,
+    NULL,
     TRUE
-  ),
+  )
   ;
 
-  INSERT INTO carte VALUES
+  INSERT INTO carte (type_carte, texte, est_pioche, est_courante)
+  VALUES
    (
     'valeur',
     '<a href="">La pédagogie active ou traditionelle</a>',
     false,
     false
-   ),
+   )
   ;
