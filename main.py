@@ -5,8 +5,7 @@ app = Flask(__name__)
 
 
 def get_db_connection():
-    return psycopg2.connect("dbname=dida user=postgres")
-
+    return psycopg2.connect("dbname=dida user=dida")
 
 @app.route('/')
 @app.route('/regle')
