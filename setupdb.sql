@@ -10,7 +10,7 @@ CREATE TABLE phase(
       REFERENCES phase(id)
 );
 
-CREATE TYPE carte_type AS ENUM ('remarque', 'valeur', 'pratique', 'theorie');
+CREATE TYPE carte_type AS ENUM ('Remarque-élève', 'Valeur', 'Pratique', 'Théorie');
 
 CREATE TABLE carte(
    id          SERIAL PRIMARY KEY,
@@ -59,19 +59,163 @@ INSERT INTO phase VALUES
   'Phase d''évaluation',
   'Phase de vérification des acquis',
   '<ol><li>Comment donner du sens à l''évaluation ?</li><li>Comment permettre une auto-évaluation ?</li><li>Quelles modalités mettre en place ?</li><li>Est-il possible de faire des évaluations différenciées selon les besoins des élèves ?</li></ol>',
-  5,
+  NULL,
   FALSE
-  ) ,
-
-  
+  )
   ;
 
   INSERT INTO carte (type_carte, texte, est_pioche, est_courante)
   VALUES
    (
-    'valeur',
+    'Valeur',
     '<a href="">La pédagogie active ou traditionelle</a>',
-    false,
-    false
-   )
+    FALSE,
+    FALSE
+   ) ,
+   (
+    'Valeur',
+    '<a href="">Les valeurs de l''enseignement</a>',
+    FALSE,
+    FALSE
+   ) ,
+   (
+    'Valeur',
+    '<a href="">Le plaisir</a>',
+    FALSE,
+    FALSE
+   ) ,
+   (
+    'Valeur',
+    '<a href="">La créativité</a>',
+    FALSE,
+    FALSE
+   ) ,
+   (
+    'Valeur',
+    '<a href="">L''entraide</a>',
+    FALSE,
+    FALSE
+   ) ,
+   (
+    'Théorie',
+    '<a href="">Le socle des compétences</a>',
+    FALSE,
+    FALSE
+   ) ,
+   (
+    'Théorie',
+    '<a href="">Les référentiels</a>',
+    FALSE,
+    FALSE
+   ) ,
+   (
+    'Théorie',
+    '<a href="">La structure des apprentissages</a>',
+    FALSE,
+    FALSE
+   ) ,
+   (
+    'Théorie',
+    '<a href="">Les manuels scolaires</a>',
+    FALSE,
+    FALSE
+   ) ,
+   (
+    'Théorie',
+    '<a href="">Les sites internet</a>',
+    FALSE,
+    FALSE
+   ) ,
+   (
+    'Pratique',
+    '<a href="">Les différentes méthodes</a>',
+    FALSE,
+    FALSE
+   ) ,
+   (
+    'Pratique',
+    '<a href="">Les devoirs</a>',
+    FALSE,
+    FALSE
+   ) ,
+   (
+    'Pratique',
+    '<a href="">La motivation</a>',
+    FALSE,
+    FALSE
+   ) ,
+   (
+    'Pratique',
+    '<a href="">L''erreur</a>',
+    FALSE,
+    FALSE
+   ) ,
+   (
+    'Pratique',
+    '<a href="">Le jeu</a>',
+    FALSE,
+    FALSE
+   ) ,
+   (
+   'Remarque-élève',
+   '"On devra finir à la maison ?" ',
+   FALSE, 
+   FALSE
+   ) ,
+   (
+   'Remarque-élève',
+   '"Je peux utiliser mon dictionnaire ?" ',
+   FALSE, 
+   FALSE
+   ) ,
+   (
+   'Remarque-élève',
+   '"J''ai fini." ',
+   FALSE, 
+   FALSE
+   ) ,
+   (
+   'Remarque-élève',
+   '"Il reste combien de temps ?" ',
+   FALSE, 
+   FALSE
+   ) ,
+   (
+   'Remarque-élève',
+   '"Je n''y arrive pas." ',
+   FALSE, 
+   FALSE
+   ) ,
+   (
+   'Remarque-élève',
+   '"On corrige ensemble ?" ',
+   FALSE, 
+   FALSE
+   ) ,
+   (
+   'Remarque-élève',
+   '"Je m''ennuie." ',
+   FALSE, 
+   FALSE
+   ) ,
+   (
+   'Remarque-élève',
+   '"Je ne comprends pas pourquoi on fait ça." ',
+   FALSE, 
+   FALSE
+   ) ,
+   (
+   'Remarque-élève',
+   '"Pourquoi fait-on cela ?" ',
+   FALSE, 
+   FALSE
+   ) ,(
+   'Remarque-élève',
+   '"Je peux le faire avec mon ami ?" ',
+   FALSE, 
+   FALSE
+   ) ,
+   
+   
+   
   ;
