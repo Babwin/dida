@@ -1,6 +1,6 @@
 from random import randint
 import psycopg2
-from flask import Flask, render_template, redirect, url_for
+from flask import Flask, render_template, redirect, url_for, Markup
 app = Flask(__name__)
 
 
@@ -31,7 +31,7 @@ def plateau_courrant():
 
             phase = {'titre': phase[0],
                     'definition': phase[1],
-                    'questions':phase[2]}
+                    'questions': Markup(phase[2])}
             
 
             cur.execute("""
@@ -41,7 +41,7 @@ def plateau_courrant():
             cartes = []
             for row in cur.fetchall():
                 carte = {'type':row[0],
-                        'texte': row[1]}
+                        'texte': Markup(row[1])}
                 cartes.append(carte)
 
             return phase, cartes

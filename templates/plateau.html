@@ -3,7 +3,9 @@
 {% block main %}
 <h2> {{phase.titre}} </h2>
 <h3> {{phase.definition}} </h3>
-<p> {{text}} <p>
+<p>
+{{phase.questions}}
+</p>
   {% if cartes %}
     {% for carte in cartes %} 
       <table>
