@@ -71,91 +71,91 @@ INSERT INTO phase VALUES
   VALUES
    (
     'Valeur',
-    '<a href="">La pédagogie active ou traditionelle</a>',
+    '<a href="https://drive.google.com/file/d/1yZswCOQ2JjN_-RLOSe__aVReInhf8o_Z/view?usp=sharing">La pédagogie active ou traditionelle</a>',
     FALSE,
     FALSE
    ) ,
    (
     'Valeur',
-    '<a href="">Les valeurs de l''enseignement</a>',
+    '<a href="https://drive.google.com/file/d/1d27VnzM357bcV2gxb7a-aT0AgNCZiGF4/view?usp=sharing">Les valeurs de l''enseignement</a>',
     FALSE,
     FALSE
    ) ,
    (
     'Valeur',
-    '<a href="">Le plaisir</a>',
+    '<a href="https://drive.google.com/file/d/11Ow_uApVg01sXRE2LecnH8azNelNKXbe/view?usp=sharing">Le plaisir</a>',
     FALSE,
     FALSE
    ) ,
    (
     'Valeur',
-    '<a href="">La créativité</a>',
+    '<a href="https://drive.google.com/file/d/1cSCmAeZwpe3EHgbDrQ1oqY9cmT_D4qDs/view?usp=sharing">La créativité</a>',
     FALSE,
     FALSE
    ) ,
    (
     'Valeur',
-    '<a href="">L''entraide</a>',
+    '<a href="https://drive.google.com/file/d/1Kku_Zku9CbdYgZNiv8jiVTYMa2uNoxQd/view?usp=sharing">L''entraide</a>',
     FALSE,
     FALSE
    ) ,
    (
     'Théorie',
-    '<a href="">Le socle des compétences</a>',
+    '<a href="https://drive.google.com/file/d/1XuycCRRj0k1iRwmVJaYPtb_4im3r5sDz/view?usp=sharing">Le socle des compétences</a>',
     FALSE,
     FALSE
    ) ,
    (
     'Théorie',
-    '<a href="">Les référentiels</a>',
+    '<a href="https://drive.google.com/file/d/1oicfLNFMFsPmZsqCu7iUZ7pv0cgJ26lg/view?usp=sharing">Les référentiels</a>',
     FALSE,
     FALSE
    ) ,
    (
     'Théorie',
-    '<a href="">La structure des apprentissages</a>',
+    '<a href="https://drive.google.com/file/d/1fdqlGDUYv7g1h3H6e3P9Eeue_1KhM7Cc/view?usp=sharing">La structure des apprentissages</a>',
     FALSE,
     FALSE
    ) ,
    (
     'Théorie',
-    '<a href="">Les manuels scolaires</a>',
+    '<a href="https://drive.google.com/file/d/1RKQCCQcTQV9J_8EVDGFV1i8m3qtbO6dp/view?usp=sharing">Les manuels scolaires</a>',
     FALSE,
     FALSE
    ) ,
    (
     'Théorie',
-    '<a href="">Les sites internet</a>',
+    '<a href="https://drive.google.com/file/d/18II0kqu2TlqT2NP0uPtNeIQm9rSJbD2R/view?usp=sharing">Les sites internet</a>',
     FALSE,
     FALSE
    ) ,
    (
     'Pratique',
-    '<a href="">Les différentes méthodes</a>',
+    '<a href="https://drive.google.com/file/d/124ebvI_wE1B4H76lhBdVXo7aeYCalAPE/view?usp=sharing">Les différentes méthodes</a>',
     FALSE,
     FALSE
    ) ,
    (
     'Pratique',
-    '<a href="">Les devoirs</a>',
+    '<a href="https://drive.google.com/file/d/1PoO4CQeHp5GN4qMXHKR7D5eiJxD8xsyW/view?usp=sharing">Les devoirs</a>',
     FALSE,
     FALSE
    ) ,
    (
     'Pratique',
-    '<a href="">La motivation</a>',
+    '<a href="https://drive.google.com/file/d/1k5CyO3SaZU41L5WYr-yvTzkGIcVpi82y/view?usp=sharing">La motivation</a>',
     FALSE,
     FALSE
    ) ,
    (
     'Pratique',
-    '<a href="">L''erreur</a>',
+    '<a href="https://drive.google.com/file/d/1B2Pt3rOTB1deaquszwQ8KjvrYAVXoLtC/view?usp=sharing">L''erreur</a>',
     FALSE,
     FALSE
    ) ,
    (
     'Pratique',
-    '<a href="">Le jeu</a>',
+    '<a href="https://drive.google.com/file/d/19IhyvM9U2BivHB60Sr2WMdt7OnZH67PE/view?usp=sharing">Le jeu</a>',
     FALSE,
     FALSE
    ) ,
