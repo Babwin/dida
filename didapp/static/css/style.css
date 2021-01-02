@@ -12,16 +12,15 @@ header {
   height: 35px;
   width: 100%;
   opacity: .9;
-  margin-bottom: 10px;
 }
-header h1.logo {
+header h1 {
   margin: 0;
   font-size: 1.7em;
   color: #fff;
   text-transform: uppercase;
   float: left;
 }
-header h1.logo:hover {
+header h1:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -46,31 +45,90 @@ div.about {
      -moz-border-radius: 6px;
           border-radius: 6px;
 }
+main h1 {
+  font-size: 4em;
+  text-align: center;
+  letter-spacing: -2px;
+  text-decoration: underline;     
+}
 h2 {
   font-size: 3em;
   margin-top: 40px;
   text-align: center;
   letter-spacing: -2px;
 }
-h3 {
+h4 {
   font-size: 1.7em;
   font-weight: 100;
-  margin-top: 30px;
-  text-align: center;
+  margin-top: 15px;
   letter-spacing: -1px;
   color: #999;
 }
-.menu {
-  float: right;
+h3 {
+  font-size: 1.5em;
+  font-weight: 100;
+  margin-top: 15px;
+  letter-spacing: -1px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex; flex-direction: column;
+}
+
+main{
+  flex: 1 0 auto;
+  padding: 20px;
+  margin-left 20px;
+  margin-right 20px;
+}
+
+.phase {
+  float: left;
   margin-top: 8px;
 }
-.menu li {
+.phase li {
   display: inline;
 }
-.menu li + li {
-  margin-left: 35px;
+.phase li + li {
+  margin-right: 35px;
 }
-.menu li a {
+.phase a {
   color: #444;
   text-decoration: none;
+}
+
+footer {
+  background-color: #DFB887;
+  height: 35px;
+  width: 100%;
+  opacity: .9;
+  text-align: center;
+  flex-shrink: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pretty_a {
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: rgb(63 165 0);
+padding: 20px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+}
+
+.pretty_a:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
 }
