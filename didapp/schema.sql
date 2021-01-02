@@ -45,7 +45,7 @@ INSERT INTO phase VALUES
   2,
   'Phase d''intégration',
   'Phase d''application de la part des élèves',
-  '<ol><li>Quels moyens, ayant du sens, mettre en place ?</li><li>Comment avoir un suivi individualisé ?</li><li>Quels modamités mettre en place ?</li></ol>',
+  '<ol><li>Quels moyens, ayant du sens, mettre en place ?</li><li>Comment avoir un suivi individualisé ?</li><li>Quels modalités mettre en place ?</li></ol>',
   3,
   FALSE
   ) ,
