@@ -7,18 +7,28 @@
 {{phase.questions}}
 </p>
   {% if cartes %}
-      <table>
+    <table class="main">
+      <tbody>
         <tr>
           {% for carte in cartes %} 
-            <th>{{carte.get('type')}}</th>
+            <td>
+              <table class="carte">
+                <thead>
+                  <tr>
+                    <th>{{carte.get('type')}}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="text_carte">
+                    <td>{{carte.get('texte')}}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
           {% endfor %}
         </tr>
-        <tr>
-          {% for carte in cartes %} 
-            <td>{{carte.get('texte')}}</td>
-          {% endfor %}
-        </tr>
-      </table>
+      </tbody>
+    </table>
       
     <a href='suivante' class="pretty_a">
       Phases Suivante
@@ -30,3 +40,4 @@
     </a>
   {% endif %}
 {% endblock %}
+
