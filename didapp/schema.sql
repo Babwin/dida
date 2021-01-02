@@ -1,3 +1,7 @@
+DROP TABLE IF EXISTS phase;
+DROP TABLE IF EXISTS carte;
+DROP TYPE IF EXISTS carte_type;
+
 CREATE TABLE phase(
    id INT PRIMARY KEY     NOT NULL,
    titre          TEXT    NOT NULL,
@@ -9,7 +13,6 @@ CREATE TABLE phase(
       FOREIGN KEY(phase_suivante_id) 
       REFERENCES phase(id)
 );
-
 CREATE TYPE carte_type AS ENUM ('Remarque-élève', 'Valeur', 'Pratique', 'Théorie');
 
 CREATE TABLE carte(

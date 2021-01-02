@@ -1,0 +1,4 @@
+include didapp/schema.sql
+graft didapp/static
+graft didapp/templates
+global-exclude *.pyc
