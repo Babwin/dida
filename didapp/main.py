@@ -54,7 +54,7 @@ def piocher_carte():
     conn = get_db_connection()
     with conn.cursor() as cur:
         cur.execute("""
-        SELECT id FROM carte WHERE est_pioche = FALSE limit %s;
+        SELECT id FROM carte WHERE est_pioche = FALSE ORDER BY random() limit %s;
         """ % alea)
         ids = [x[0] for x in cur.fetchall()]
         print(ids)
