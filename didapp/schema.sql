@@ -29,7 +29,7 @@ INSERT INTO phase VALUES
     0,
 	'Phase d''intéressement',
     'Phase primordiale pour mobiliser l''élève',
-    '<ol><li>Quel est l''objectif de ma leçon ?</li><li>Comment partir de ce qu''il connait ? </li><li>Comment les motiver à apprendre</li></ol>',
+    '<ol><li>Quel est l''objectif de ma leçon ?</li><li>Comment partir de ce qu''il connait ? </li><li>Comment les motiver à apprendre ?</li></ol>',
     1,
     TRUE
   ),
@@ -45,7 +45,7 @@ INSERT INTO phase VALUES
   2,
   'Phase d''intégration',
   'Phase d''application de la part des élèves',
-  '<ol><li>Quels moyens, ayant du sens, mettre en place ?</li><li>Comment avoir un suivi individualisé ?</li><li>Quels modalités mettre en place ?</li></ol>',
+  '<ol><li>Quels moyens, ayant du sens, mettre en place ?</li><li>Comment avoir un suivi individualisé ?</li><li>Quelles modalités mettre en place ?</li></ol>',
   3,
   FALSE
   ) ,
